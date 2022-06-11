@@ -1,0 +1,756 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670e60cadbb340dcaf85e08f66013afe, type: 3}
+  m_Name: HumanWalk
+  m_EditorClassIdentifier: 
+  Groups:
+  - TargetPath: Rig\LegL
+    Animations:
+    - PropertyType: 2
+      TimeOffset: 0.5
+      Scale: 0.4
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: -0.26883164
+          inSlope: -2.5551379
+          outSlope: -2.5551379
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.25992697
+        - serializedVersion: 3
+          time: 0.3209255
+          value: -0.95302594
+          inSlope: 0
+          outSlope: 5.573704
+          tangentMode: 1
+          weightedMode: 3
+          inWeight: 0.33333334
+          outWeight: 0.13372019
+        - serializedVersion: 3
+          time: 0.61091113
+          value: 0.69902766
+          inSlope: 5.2916346
+          outSlope: 0
+          tangentMode: 1
+          weightedMode: 0
+          inWeight: 0.24191329
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: -0.26883164
+          inSlope: -3.9310915
+          outSlope: -3.9310915
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0.21530363
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - PropertyType: 1
+      TimeOffset: 0.5
+      Scale: 0.25
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.12994966
+          value: 0
+          inSlope: 0
+          outSlope: 0.0047760922
+          tangentMode: 1
+          weightedMode: 3
+          inWeight: 0.33333334
+          outWeight: 0.4931456
+        - serializedVersion: 3
+          time: 0.45896095
+          value: 0.96891963
+          inSlope: 0.055454798
+          outSlope: 0.060381144
+          tangentMode: 1
+          weightedMode: 3
+          inWeight: 0.481162
+          outWeight: 1
+        - serializedVersion: 3
+          time: 0.760103
+          value: 0
+          inSlope: -0.007500714
+          outSlope: 0
+          tangentMode: 1
+          weightedMode: 3
+          inWeight: 0.5513796
+          outWeight: 0.3422213
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - PropertyType: 3
+      TimeOffset: 0.5
+      Scale: 1
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -0.45910344
+          outSlope: -0.45910344
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.75192326
+        - serializedVersion: 3
+          time: 0.07627429
+          value: -0.064695895
+          inSlope: 111.440254
+          outSlope: 111.440254
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.4269378
+        - serializedVersion: 3
+          time: 0.48631328
+          value: 71.02046
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6577095
+          value: -21.31466
+          inSlope: 18.935661
+          outSlope: 18.935661
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.9065596
+        - serializedVersion: 3
+          time: 0.8786272
+          value: -0.42417854
+          inSlope: 2.115071
+          outSlope: 2.115071
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 1
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - TargetPath: Rig\LegR
+    Animations:
+    - PropertyType: 2
+      TimeOffset: 0
+      Scale: 0.4
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: -0.26883164
+          inSlope: -2.5551379
+          outSlope: -2.5551379
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.25992697
+        - serializedVersion: 3
+          time: 0.3209255
+          value: -0.95302594
+          inSlope: 0
+          outSlope: 5.573704
+          tangentMode: 1
+          weightedMode: 3
+          inWeight: 0.33333334
+          outWeight: 0.13372019
+        - serializedVersion: 3
+          time: 0.61091113
+          value: 0.69902766
+          inSlope: 5.2916346
+          outSlope: 0
+          tangentMode: 1
+          weightedMode: 0
+          inWeight: 0.24191329
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: -0.26883164
+          inSlope: -3.9310915
+          outSlope: -3.9310915
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0.21530363
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - PropertyType: 1
+      TimeOffset: 0
+      Scale: 0.25
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.12994966
+          value: 0
+          inSlope: 0
+          outSlope: 0.0047760922
+          tangentMode: 1
+          weightedMode: 3
+          inWeight: 0.33333334
+          outWeight: 0.4931456
+        - serializedVersion: 3
+          time: 0.45896095
+          value: 0.96891963
+          inSlope: 0.055454798
+          outSlope: 0.060381144
+          tangentMode: 1
+          weightedMode: 3
+          inWeight: 0.481162
+          outWeight: 1
+        - serializedVersion: 3
+          time: 0.760103
+          value: 0
+          inSlope: -0.007500714
+          outSlope: 0
+          tangentMode: 1
+          weightedMode: 3
+          inWeight: 0.5513796
+          outWeight: 0.3422213
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - PropertyType: 3
+      TimeOffset: 0
+      Scale: 1
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -0.45910344
+          outSlope: -0.45910344
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.75192326
+        - serializedVersion: 3
+          time: 0.07627429
+          value: -0.064695895
+          inSlope: 111.440254
+          outSlope: 111.440254
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.4269378
+        - serializedVersion: 3
+          time: 0.48631328
+          value: 71.02046
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6577095
+          value: -21.31466
+          inSlope: 18.935661
+          outSlope: 18.935661
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.9065596
+        - serializedVersion: 3
+          time: 0.8786272
+          value: -0.42417854
+          inSlope: 2.115071
+          outSlope: 2.115071
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 1
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - TargetPath: Rig\ArmL
+    Animations:
+    - PropertyType: 3
+      TimeOffset: 0
+      Scale: 25
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: -0.2559476
+          inSlope: 3.8707194
+          outSlope: 3.8707194
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.18239968
+        - serializedVersion: 3
+          time: 0.32791123
+          value: 0.74372345
+          inSlope: -0.0002638019
+          outSlope: -0.0002638019
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.633015
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.72689515
+          value: -1.2617011
+          inSlope: 0.029802656
+          outSlope: 0.029802656
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.47913176
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: -0.2559476
+          inSlope: 4.6825504
+          outSlope: 4.6825504
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.21417439
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+    - PropertyType: 4
+      TimeOffset: 0
+      Scale: 25
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: -0.2559476
+          inSlope: 0.025069293
+          outSlope: 0.025069293
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.3029288
+        - serializedVersion: 3
+          time: 0.3438474
+          value: 0.114859045
+          inSlope: -0.0002638019
+          outSlope: -0.0002638019
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.633015
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.69393665
+          value: 0.10190576
+          inSlope: 0.029802656
+          outSlope: 0.029802656
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.47913176
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: -0.2559476
+          inSlope: -0.06181432
+          outSlope: -0.06181432
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.2978295
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - TargetPath: Rig\ArmR
+    Animations:
+    - PropertyType: 3
+      TimeOffset: 0.5
+      Scale: 25
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: -0.2559476
+          inSlope: 3.8707194
+          outSlope: 3.8707194
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.18239968
+        - serializedVersion: 3
+          time: 0.32791123
+          value: 0.74372345
+          inSlope: -0.0002638019
+          outSlope: -0.0002638019
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.633015
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.72689515
+          value: -1.2617011
+          inSlope: 0.029802656
+          outSlope: 0.029802656
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.47913176
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: -0.2559476
+          inSlope: 4.6825504
+          outSlope: 4.6825504
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.21417439
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+    - PropertyType: 4
+      TimeOffset: 0.5
+      Scale: 25
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: -0.2559476
+          inSlope: 0.025069293
+          outSlope: 0.025069293
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.3029288
+        - serializedVersion: 3
+          time: 0.3438474
+          value: 0.114859045
+          inSlope: -0.0002638019
+          outSlope: -0.0002638019
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.633015
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.69393665
+          value: 0.10190576
+          inSlope: 0.029802656
+          outSlope: 0.029802656
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.47913176
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: -0.2559476
+          inSlope: -0.06181432
+          outSlope: -0.06181432
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.2978295
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - TargetPath: Rig\Pelvis
+    Animations:
+    - PropertyType: 4
+      TimeOffset: 0.6666667
+      Scale: 5
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.000038146973
+          value: 1
+          inSlope: 0.038065437
+          outSlope: 0.038065437
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.6535009
+        - serializedVersion: 3
+          time: 0.4987986
+          value: -1
+          inSlope: -0.009764552
+          outSlope: -0.009764552
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.00000031467786
+          outSlope: -0.00000031467786
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.75584304
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+    - PropertyType: 5
+      TimeOffset: 0.6666667
+      Scale: 2
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.0033035278
+          value: 0.001159668
+          inSlope: 0.000029877368
+          outSlope: 0.000029877368
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.18399431
+        - serializedVersion: 3
+          time: 0.32256722
+          value: 0.99769974
+          inSlope: -0.04710216
+          outSlope: -0.04710216
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.6787809
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6635582
+          value: -0.99716496
+          inSlope: 0.0034668702
+          outSlope: 0.0034668702
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.43365923
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.001159668
+          inSlope: 0.07290408
+          outSlope: 0.07290408
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0.23668678
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+    - PropertyType: 1
+      TimeOffset: 0.6666667
+      Scale: 0.02
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.0033035278
+          value: 0.015232563
+          inSlope: -0.10048699
+          outSlope: -0.10048699
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.5453472
+        - serializedVersion: 3
+          time: 0.20153451
+          value: 1.0300071
+          inSlope: -0.04710216
+          outSlope: -0.04710216
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.6787809
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.40329793
+          value: -0.97411203
+          inSlope: -0.026833577
+          outSlope: -0.026833577
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0.60816896
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6052696
+          value: 1.0138869
+          inSlope: 0.0034668702
+          outSlope: 0.0034668702
+          tangentMode: 0
+          weightedMode: 2
+          inWeight: 0.43365923
+          outWeight: 0.31082162
+        - serializedVersion: 3
+          time: 0.80825967
+          value: -0.98682356
+          inSlope: 0.10392253
+          outSlope: 0.10392253
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0.6319191
+          outWeight: 0.38562667
+        - serializedVersion: 3
+          time: 1
+          value: 0.015232563
+          inSlope: 0.07290408
+          outSlope: 0.07290408
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0.25634044
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - TargetPath: Rig\Shoulders
+    Animations:
+    - PropertyType: 4
+      TimeOffset: 0.15
+      Scale: 10
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.000038146973
+          value: 1
+          inSlope: 0.038065437
+          outSlope: 0.038065437
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.6535009
+        - serializedVersion: 3
+          time: 0.4987986
+          value: -1
+          inSlope: -0.009764552
+          outSlope: -0.009764552
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.00000031467786
+          outSlope: -0.00000031467786
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.75584304
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+    - PropertyType: 5
+      TimeOffset: 0.15
+      Scale: 5
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.0033035278
+          value: 0.001159668
+          inSlope: 0.000029877368
+          outSlope: 0.000029877368
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0
+          outWeight: 0.18399431
+        - serializedVersion: 3
+          time: 0.32256722
+          value: 0.99769974
+          inSlope: -0.04710216
+          outSlope: -0.04710216
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.6787809
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6635582
+          value: -0.99716496
+          inSlope: 0.0034668702
+          outSlope: 0.0034668702
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.43365923
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.001159668
+          inSlope: 0.07290408
+          outSlope: 0.07290408
+          tangentMode: 0
+          weightedMode: 3
+          inWeight: 0.23668678
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
